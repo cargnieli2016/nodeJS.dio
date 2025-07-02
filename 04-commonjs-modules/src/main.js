@@ -1,4 +1,4 @@
-const p = require("./service/products")
+const product = require("./service/products")
 const config = require("./service/config")
 
 async function main() {
@@ -14,7 +14,6 @@ async function main() {
     console.log("Está em produção?: " + config.production);
     console.log("Versão do produto: " + config.version);
     console.log("\n");
-    
 }
 
 main();
