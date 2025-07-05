@@ -1,5 +1,6 @@
-const product = require("./service/products")
-const config = require("./service/config")
+const product = require("./service/products");
+const config = require("./service/config");
+const database = require("./service/database");
 
 async function main() {
     // console.log("\n")
@@ -14,6 +15,7 @@ async function main() {
     console.log("Está em produção?: " + config.production);
     console.log("Versão do produto: " + config.version);
     console.log("\n");
+    
 }
 
 main();
