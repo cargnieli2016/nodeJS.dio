@@ -10,6 +10,8 @@ async function main() {
 
   getFullNme("1", "teclado");
   products.getFullNme("1", "teclado");
+
+  console.log(productType);
   //   product.getFullNme("480", "Teclado 101 teclas");
   //   product.getFullNme("481", "Mouse");
   //   product.getFullNme("482", "MousePad");
