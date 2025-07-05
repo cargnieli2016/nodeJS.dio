@@ -1,4 +1,6 @@
 // export default
+
+//export default async
 exports.connectToDataBase = async (dataName) => {
   console.log("conectando ao banco: " + dataName);
 };
